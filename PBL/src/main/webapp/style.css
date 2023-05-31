@@ -1,0 +1,85 @@
+
+/* first page */
+#firstpage .navbar, #firstpage .first-page-info{
+    padding: 18px 7%;
+}
+
+.navbar{
+    background-color:#ed4a4a;
+}
+
+.first-page-info{
+   
+    background-color: #FD8A8A;
+    padding: 10px;
+}
+.first-page-info button{
+    border:none;
+    background-color:#ff6c0c;
+    padding:15px 20px;
+}
+.first-page-info button:hover{
+    background-color: #F2921D;
+}
+
+.first-button{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* second page */
+
+
+#second-page{
+    padding: 5% 7%;
+}
+
+#second-page .second-page-second img{
+    width:100px;
+}
+
+
+/* third-page */
+#third-page .first-column{
+    padding: 5% 7%;
+}
+
+/* fourth-page */
+
+#fourth-page{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5%;
+}
+
+#fourth-page div{
+   
+    background-color: rgb(173, 63, 63);
+    width: 32%;
+    margin:0px 10px;
+    padding: 10px;
+}
+
+@media (max-width:800px){
+    #fourth-page {
+       display: block;
+        
+       text-align: center;
+    }
+    #fourth-page div{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+#fourth-page button{
+    width: 100%;
+    background-color: #F2921D;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+
